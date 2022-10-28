@@ -12,3 +12,28 @@ $(document).ready(function () {
         // Save text in local storage
         localStorage.setItem(time, text); 
     })
+
+    function timeTracker() {
+        //get current number of hours.
+        var timeNow = moment().hour();
+        console.log(timeNow)
+
+        // loop over time blocks
+        $(".description").each(function (calender) {
+        
+            // To check the time and add the classes for background indicators
+            if (timeNow > calender + 9) {
+                // Past color = grey 
+                $(this).addClass("past");
+            }
+            if (timeNow == calender + 9) {
+                // Present color = red 
+                $(this).addClass("present");
+            }
+            if (timeNow < calender + 9) {
+                // Future color = green 
+                $(this).addClass("future");
+            }
+
+        })
+    }

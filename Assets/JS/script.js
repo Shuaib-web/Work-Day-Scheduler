@@ -14,14 +14,14 @@ $(document).ready(function () {
     })
 
     function timeTracker() {
-        //get current number of hours.
+        // current number of hours.
         var timeNow = moment().hour();
         console.log(timeNow)
 
         // loop over time blocks
         $(".description").each(function (calender) {
         
-            // To check the time and add the classes for background indicators
+            //  Checking the time and adding classes for background color 
             if (timeNow > calender + 9) {
                 // Past color = grey 
                 $(this).addClass("past");

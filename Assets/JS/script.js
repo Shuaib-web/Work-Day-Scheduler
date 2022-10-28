@@ -38,7 +38,7 @@ $(document).ready(function () {
         })
     }
 
-    // get items from local storage if any
+    // get items from local storage 
 
 $("#hour-09 .description").val(localStorage.getItem("hour-09"));
 $("#hour-10 .description").val(localStorage.getItem("hour-10"));
@@ -53,4 +53,4 @@ $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 timeTracker();
 
 })
-Footer
+

@@ -4,5 +4,7 @@ At the point when the planner is opened the present date is shown at the top of 
 
 ## Tech used
 1)JavaScript
+
 2)HTML
+
 3)CSS

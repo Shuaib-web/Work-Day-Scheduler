@@ -8,3 +8,7 @@ JavaScript
 HTML
 
 CSS
+
+
+![Schedule](https://user-images.githubusercontent.com/72218203/199062999-eb7ba344-e7dc-4337-9685-bee9c6048035.png)
+
